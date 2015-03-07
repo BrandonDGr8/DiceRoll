@@ -1,0 +1,69 @@
+* {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    background-color: black;
+}
+
+.main {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: white;
+}
+
+h1 {
+	font-family: "Arvo", sans-serif;
+	font-size: 5em;
+}
+
+.dice {
+	position: relative;
+	width: 25%;
+	display: inline-block;
+
+}
+
+#result {
+	font-family: "Avro", sans-serif;
+	font-size: 2em;
+}
+
+.resultDice {
+	height: 100px;
+	width: 100px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+#result:before {
+	content: "Total Result: ";
+}
+
+#add {
+	height: 25px;
+	width: 25px;
+	opacity: 0.5;
+	cursor: pointer;
+	/*clear: both;*/
+}
+
+#minus {
+	height: 25px;
+	width: 25px;
+	opacity: 0.5;
+	cursor: pointer;
+	/*clear: both;*/
+}
+
+.total {
+	font-family: "Avro", sans-serif;
+	font-size: 1em;
+}
+
+.total:before {
+	content: "Total Die: "
+}
